@@ -10,4 +10,8 @@ class InfoForm(FlaskForm):
     add = StringField("Address")
     empid = StringField("EmpId")
     sal = StringField("Salary")
+    dept_id = StringField("DeptId")
     submit = SubmitField("Submit")
+
+
+
